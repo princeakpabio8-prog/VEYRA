@@ -1,0 +1,13 @@
+# Force LF line endings for all text files in the repo.
+# This ensures consistency across Windows dev machines and Linux (Vercel/CI).
+* text=auto eol=lf
+
+# Binary files — no line ending conversion
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary

@@ -1,0 +1,4 @@
+// Supabase lib barrel
+export { createClient as createBrowserClient } from "./client";
+export { createClient as createServerClient } from "./server";
+export type { Database, Json } from "./database.types";
